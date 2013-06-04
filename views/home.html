@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NodesHub demo</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io.connect(window.location.origin/*, { 'force new connection': true }*/);
+    socket.on('hello', function (data) {
+      console.log(data);
+    });
+  </script>
+</head>
+<body>
+<h1>NodesHub demo</h1>
+
+<p>Open your web console to see the 'hello' websocket message every 5 seconds</p>
+
+<p>Click to display <a href="/cats">cats</a> from database</p>
+</body>
+</html>

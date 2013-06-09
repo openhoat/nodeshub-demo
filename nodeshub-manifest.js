@@ -5,5 +5,5 @@ module.exports = {
       port: 3000
     }
   ],
-  node: '0.6.21'
+  node: '0.8.24'
 };

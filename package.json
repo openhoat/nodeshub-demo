@@ -22,7 +22,7 @@
     }
   ],
   "dependencies": {
-    "connect": "2.7.6",
+    "connect": "3.7.0",
     "ejs": "0.8.3",
     "express": "3.2.0",
     "less-middleware": "0.1.11",
